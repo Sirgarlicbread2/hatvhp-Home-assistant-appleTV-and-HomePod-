@@ -1,0 +1,14 @@
+sequence:
+  - action: remote.send_command
+    data:
+      command:
+        - suspend
+    target:
+      entity_id:  "replace with your entity id"
+  - action: media_player.turn_off
+    target:
+      entity_id:
+        "replace with your entity id"
+    data: {}
+alias: Turn off the tv
+description: ""
